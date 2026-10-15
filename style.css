@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background:
+        linear-gradient(rgba(151, 183, 239, 0.58), rgba(173, 61, 61, 0.72)),
+        url("../Images/Blurish.jpg") center / cover fixed no-repeat;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(250, 241, 227);
+    margin: 0 auto 5px auto;
+    max-width: 900px;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(255, 241, 220);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.75);
+    padding-bottom: 12px;
+    margin: 0 auto 24px auto;
+    max-width: 900px;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+#profile-photo {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 28px auto;
+    border: 3px solid rgba(208, 85, 85, 0.8);
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+form {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+fieldset {
+    background-color: rgba(28, 95, 136, 0.349);
+    border: 2px solid rgba(255, 255, 255, 0.48);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 24px;
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+legend {
+    font-weight: bold;
+    color: white;
+    background-color: rgba(12, 27, 48, 0.82);
+    border: 1px solid rgba(255, 255, 255, 0.42);
+    padding: 6px 14px;
+    border-radius: 100px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    color: white;
+}
+
+td,
+th {
+    padding: 8px 6px;
+    vertical-align: top;
+}
